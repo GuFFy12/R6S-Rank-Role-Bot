@@ -1,0 +1,38 @@
+const config = require("../config.json");
+const schema = mongoose.Schema({
+  guildID: String,
+  prefix: { type: String, default: config.prefix },
+  setup: { type: String, default: "false" },
+  ranks: {
+    Unranked: String,
+    "Copper 5": String,
+    "Copper 4": String,
+    "Copper 3": String,
+    "Copper 2": String,
+    "Copper 1": String,
+    "Bronze 5": String,
+    "Bronze 4": String,
+    "Bronze 3": String,
+    "Bronze 2": String,
+    "Bronze 1": String,
+    "Silver 5": String,
+    "Silver 4": String,
+    "Silver 3": String,
+    "Silver 2": String,
+    "Silver 1": String,
+    "Gold 3": String,
+    "Gold 2": String,
+    "Gold 1": String,
+    "Platinum 3": String,
+    "Platinum 2": String,
+    "Platinum 1": String,
+    Diamond: String,
+    Champions: String,
+  },
+  platforms: {
+    uplay: String,
+    psn: String,
+    xbl: String,
+  },
+});
+module.exports = mongoose.model("Guild", schema);

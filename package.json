@@ -1,0 +1,13 @@
+{
+  "name": "r6s-rank-role-bot",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "mongoose": "^6.0.11",
+    "r6api.js": "^3.0.0"
+  }
+}

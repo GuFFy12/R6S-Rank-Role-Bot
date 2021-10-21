@@ -1,0 +1,23 @@
+{
+  "dataURL": "",
+  "token": "",
+  "ubiEmail": "",
+  "ubiPass": "",
+  "owner": [""],
+  "prefix": "=",
+  "updateTime": "12",
+  "color": "#f1c636",
+  "colors": {
+    "Unranked": "#1e191a",
+    "Copper": "#7a2a02",
+    "Bronze": "#c7762f",
+    "Silver": "#a5a5a5",
+    "Gold": "#eeaf2c",
+    "Platinum": "#5acdc2",
+    "Diamond": "#9c6ce9",
+    "Champions": "#cf0147",
+    "uplay": "#fefefe",
+    "psn": "#006FCD",
+    "xbl": "#107C11"
+  }
+}
