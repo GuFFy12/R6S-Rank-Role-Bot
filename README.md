@@ -18,6 +18,7 @@ Paste r6ru rank bot, using part of src NFS rank bot.
 + Add cooldown on setup role.
 + Add =updateRank @user for administrators.
 + Better embeds, help. Make the final code to which in the future I will new functions.
++ Add default channel for commands.
 
 # V0.2.x
 
