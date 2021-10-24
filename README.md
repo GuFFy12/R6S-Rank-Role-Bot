@@ -2,7 +2,7 @@
 
 R6S-Rank-Role-Bot
 
-Paste r6ru rank bot, using part of src NFS rank bot.
+Paste r6ru rank bot, using part of src NFS rank bot. I stopped wanting to do a project because it needs to take into account a lot of values, each of which needs to be described. This is especially true for autoUpdate.
 
 #
 # ROADMAP
